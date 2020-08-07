@@ -1,0 +1,208 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.nav__faq {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 25px;
+  background: #aaa;
+  height: 80px;
+}nav
+.logo1 {
+  display: inline-block;
+}
+.mains {
+  display: flex;
+  justify-content: center;
+}
+
+.sectionn {
+  display: block;
+  justify-content: center;
+  width: 1200px;
+  height: 100vh;
+  margin-top: 3rem;
+  background: lightgray;
+}
+
+.tab__title {
+  display: flex;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: white;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+.tab__title .faq1,
+.tab__title .faq2 {
+  background-color: #fe605c;
+  flex: 1;
+  border-width: 0 1px;
+  border-style: solid;
+}
+.tab__title .faq2 {
+  background-color: #d9d9d9;
+}
+.faq__list {
+  display: flex;
+  height: 100vh;
+}
+.faq__faq {
+  background-color: white;
+  color: #010001;
+  font-size: 1.5rem;
+}
+details {
+  width: 1200px;
+  display: grid;
+  margin: 1rem;
+  margin-top: 1rem;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  display: block;
+  border: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 1.5rem;
+}
+.faq__answer {
+  border: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  font-size: 20px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+.nav__service {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  height: 62px;
+}
+
+.logo {
+  width: 400px;
+ display: grid;
+  justify-content: center;
+  font-size: 23px;
+  margin: 22px 0 0 325px;
+}
+.menu ul {
+  margin: 15px 470px 0 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  list-style-type: none;
+  font-size: 16px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #d9d9d9;
+
+}
+li a:hover{
+ color: #e64e5d;
+ cursor: pointer;
+}
+
+.li1{
+  color:#e64e5d;
+  cursor: pointer;
+}
+.noname {
+  display: block;
+  height: 559px;
+  border-top: 1px solid #dddddd;
+  background-image: url(img/main.png);
+
+}
+main section {
+  text-align: center;
+  height: 230px;
+}
+
+section ul {
+  padding: 6rem 0 0 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  list-style-type: none;
+  grid-gap: 10px;
+  font-size: 25px;
+  line-height: 1.9em;
+}
+.sec__title1 {
+  font-weight: bold;
+}
+.sec__content {
+  font-size: 17px;
+  color: #6f6f6f;
+}
+.ddd {
+  display: flex;
+  justify-content: center;
+  height: 290px;
+}
+.Card {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr;
+  height: 230px;
+  width: 980px;
+  background: #f8f8f8;
+  padding: 20px 20px 4px 20px;
+  list-style-type: NONE;
+}
+.sec__img1 {
+  background-image: url(img/lease.png);
+  width: 315px;
+  height: 215px;
+}
+.sec__img2 {
+  background-image: url(img/consign.png);
+  width: 315px;
+  height: 215px;
+}
+
+.card__title {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  margin: 10px 0 0 8px;
+  color: #e64e5d;
+  font-size: 23px;
+}
+
+.card__content {
+  font-size: 19px;
+  margin: 10px 0 0 7px;
+  font-weight: bold;
+}
+.card__content1 {
+  color: #202020
+  font-size: 17px;
+  margin: 10px 0 0 7px;
+}
+.click1{
+  background-color: #e64e5d;
+  width: 115px;
+  height: 30px;
+  margin: 10px 0 0 7px ;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #ffffff;
