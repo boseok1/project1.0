@@ -1,0 +1,263 @@
+
+/*faq �떆�옉*/
+
+.mains {
+  display: flex;
+  justify-content: center;
+  list-style: none; 
+}
+
+.sectionn {
+  justify-content: center;
+  width: 1200px;
+  margin-top: 3rem;
+  background: white;
+}
+
+.tab__title {
+  display: grid;
+  grid-template-columns: auto auto;
+  line-height: 4.5rem;
+  grid-column-gap:0.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+   padding: 0px;
+   margin: 0px;
+ 
+}
+.tab__title .faq1,
+.tab__title .faq2 {
+  background-color: #fe605c;
+  
+}
+
+.tab__title .faq2 {
+  background-color: #d9d9d9;
+}
+ 
+
+.faq__faq {
+  background-color: white;
+  color: #010001;
+  font-size: 1.5rem;  
+}
+                                                    
+details {
+  width: 1200px;
+  margin-top: 1rem;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  display: block;
+  border: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+  cursor: pointer;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  font-size: 1rem;
+  font-style: bold;
+}
+
+.faq__answer {
+  border: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  font-size: 20px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+                                           /*faq �럹�씠吏��걹*/
+.nav__service {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  height: 62px;
+}
+
+.logo {
+  width: 400px;
+ display: grid;
+  justify-content: center;
+  font-size: 23px;
+  margin: 22px 0 0 325px;
+}
+
+.menu ul {
+  margin: 15px 470px 0 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  font-size: 16px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #d9d9d9;
+}
+
+li a:hover{
+ color: #e64e5d;
+ cursor: pointer;
+}
+
+.li1{
+  color:#e64e5d;
+  cursor: pointer;
+}
+.noname {
+  display: block;
+  height: 559px;
+  border-top: 1px solid #dddddd;
+  background-image: url("/img/serviceInfoMain.png");
+
+}
+main section {
+  text-align: center;
+  height: 230px;
+}
+
+section ul {
+  padding: 6rem 0 0 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  grid-gap: 10px;
+  font-size: 25px;
+  line-height: 1.9em;
+}
+.sec__title1 {
+  font-weight: bold;
+}
+.sec__content {
+  font-size: 17px;
+  color: #6f6f6f;
+}
+.ddd {
+  display: flex;
+  justify-content: center;
+  height: 290px;
+}
+.Card {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr;
+  height: 230px;
+  width: 980px;
+  background: #f8f8f8;
+  padding: 20px 20px 4px 20px;
+}
+.sec__img1 {
+  background-image: url("/img/lease.png");
+  width: 315px;
+  height: 215px;
+}
+.sec__img2 {
+  background-image: url("/img/consign.png");
+  width: 315px;
+  height: 215px;
+}
+
+.card__title {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  margin: 10px 0 0 8px;
+  color: #e64e5d;
+  font-size: 23px;
+}
+
+.card__content {
+  font-size: 19px;
+  margin: 10px 0 0 7px;
+  font-weight: bold;
+}
+.card__content1 {
+  color: #202020;
+  font-size: 17px;
+  margin: 10px 0 0 7px;
+}
+.click1{
+  background-color: #e64e5d;
+  width: 115px;
+  height: 30px;
+  margin: 10px 0 0 7px ;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #ffffff; 
+}
+/* 濡쒓렇�씤 �럹�씠吏� css*/
+ .form {
+        display: grid;
+        justify-content: center;
+      }
+      .join__box {
+        width: 450px;
+        height: 550px;
+        padding: 62px 58px 0 58px;
+        background-color: #ffffff;
+        position: relative;
+        top: 50px;
+        border-radius: 0.5vw;
+        box-shadow: 0 0 26px 0px rgba(19, 19, 19, 0.2);
+      }
+      .join__title,
+      .join__title2 {
+        color: red;
+        font-size: 20px;
+      }
+      .join__title2 {
+        color: black;
+        margin-bottom: 2.5rem;
+      }
+
+      .form__group {
+        margin-bottom: 1rem;
+      }
+      .text-input,
+      .text-input1 {
+        width: 200px;
+        height: 33px;
+        border-radius: 0.5vw;
+        border-width: 0.1px;
+        border-style: solid;
+        border-color: #a6a6a6;
+      }
+
+      .email-text {
+        color: #a6a6a6;
+      }
+
+      .text-input1 {
+        width: 435px;
+        margin-bottom: 1rem;
+      }
+
+      #btn__group button {
+        width: 215px;
+        height: 37px;
+        border-radius: 0.4vw;
+        border: 0.5px;
+        background: #da553b;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 50px;
+      }
+
+      .text__notice {
+        text-align: start;
+        color: #ced4da;
+        font-size: 15px;
+        margin-left: 5px;
+      }
+       #login__main { 
+        width: 1903px;
+        height: 708px;
+      }
